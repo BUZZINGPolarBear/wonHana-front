@@ -29,12 +29,12 @@ body{
     text-align: center;
     line-height: 3vh;
 
-    border-bottom: 1px #1DCB9D solid;
     margin-top: 5vh;
 }
 .asset-category#left{
     float: left;
     margin-left: 15vw;
+    border-bottom: 1px #1DCB9D solid;
 }
 
 .asset-category#right{
