@@ -208,8 +208,6 @@ body{
 .dept-graph-area{
     width: 90%;
     height: 20vw;
-    margin-left: 5vw;
-    margin-right: 5vw;
 }
 
 .dept-graph-title{
@@ -250,4 +248,16 @@ body{
 #donut-center-text{
     font-size: 0.9em;
     color: #797A7A;
+}
+
+.dept-graph-content{
+    position: absolute;
+    width: 45%;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 50vw;
+    padding-top: 10vh;
+    font-size: 0.8em;
+    background-color: #FBAE29;
+    
 }
