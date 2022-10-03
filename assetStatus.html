@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Do+Hyeon&family=Nanum+Gothic:wght@400;700;800&family=Roboto:wght@300;400;500&family=Russo+One&family=Sniglet&display=swap" rel="stylesheet">
+    
+    <!-- STYLE Sheet -->
+    <link rel="stylesheet" type="text/css" href="/css/assetStatus.css"> 
     <title>자산 현황</title>
 </head>
 <body>
-    
+    <div class="main-graph-area">
+        <div class="bar-graph-top-area">
+            <div class="asset-category" id="left">재정 현황</div>
+            <div class="asset-category" id="right" style="color: #C7C8C8">현금 흐름</div>
+        </div>
+        <div class="bar-graph-area">
+            <div class="bar-graph-title">자산 현황</div>
+            <div class="graph-area">
+                <div class="draw-bar-graph" id="first-ratio"> </div>
+                <div class="draw-bar-graph" id="second-ratio"> </div>
+                <div class="draw-bar-graph" id="third-ratio"> </div>
+                <div class="draw-bar-graph" id="fourth-ratio"> </div>
+            </div>
+            <div class="graph-info-area">
+                <div class="color-info" id="first"></div>
+                <div class="info-text">금융투자자산</div>
+                <div class="percent-info">60%</div>
+                <div class="money-info">1,245,920원</div>
+            </div>
+            <div class="graph-info-area">
+                <div class="color-info" id="second"></div>
+                <div class="info-text">예·적금</div>
+                <div class="percent-info">20%</div>
+                <div class="money-info">455,920원</div>
+            </div>
+            <div class="graph-info-area">
+                <div class="color-info" id="third"></div>
+                <div class="info-text">현금</div>
+                <div class="percent-info">10%</div>
+                <div class="money-info">123,456원</div>
+            </div>
+            <div class="graph-info-area">
+                <div class="color-info" id="fourth"></div>
+                <div class="info-text">부동산</div>
+                <div class="percent-info">10%</div>
+                <div class="money-info">123,456원</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
