@@ -167,6 +167,9 @@ body{
 */
 
 .recomment-btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100vw;
     height: 140px;
     margin-top: 4px;
@@ -176,22 +179,25 @@ body{
 
 .recommend-btn-img{
     float: left;
-    width: 20vw;
     height: 10vh;
-
+    margin-top: 5%;
     margin-bottom: 5%;
     border-radius: 10px;
 }
+
 .recommend-btn-img#first{
-    margin-left: 4vw;
+    max-width: 100%;
+    height : auto;
 }
 
 .recommend-btn-img#second{
-    margin-left: 11vw;
+    max-width: 100%;
+    height : auto;
 }
 
 .recommend-btn-img#third{
-    margin-left: 11vw;
+    max-width: 100%;
+    height : auto;
 }
 
 /* 
@@ -217,7 +223,7 @@ body{
 
     font-weight: bolder;
     font-size: 0.8em;
-    margin-left: 5px;
+    margin-left: 5vw;
     margin-top: 2vh;
 }
 
