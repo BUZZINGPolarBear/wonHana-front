@@ -168,37 +168,30 @@ body{
 
 .recomment-btn-area{
     width: 100vw;
-    height: 16vh;
-    margin-top: 1vh;
+    height: 140px;
+    margin-top: 4px;
 
     /* background-color:darkcyan; */
 }
 
 .recommend-btn-img{
     float: left;
-    width: 108px;
-    height: 100%;
+    width: 20vw;
+    height: 10vh;
 
     margin-bottom: 5%;
-    
     border-radius: 10px;
 }
 .recommend-btn-img#first{
-    margin-left: 8vw;
-    background-image: url("/image/recommend_btn_1.png");
-    background-repeat: no-repeat;
+    margin-left: 4vw;
 }
 
 .recommend-btn-img#second{
-    margin-left: 2vw;
-    background-image: url("/image/recommend_btn_2.png");
-    background-repeat: no-repeat;
+    margin-left: 11vw;
 }
 
 .recommend-btn-img#third{
-    margin-left: 2vw;
-    background-image: url("/image/recommend_btn_3.png");
-    background-repeat: no-repeat;
+    margin-left: 11vw;
 }
 
 /* 
@@ -229,14 +222,12 @@ body{
     margin-left: 5px;
 }
 
-.dept-graph{
+#dept-graph-doughnut{
     float: left;
     width: 45%;
     margin-left:5%;
     margin-right:5%;
     margin-top: 2vh;
     height: 20vh;
-
-    background-color: #FBAE29;
-
 }
+
