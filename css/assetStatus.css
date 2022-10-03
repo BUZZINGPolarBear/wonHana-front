@@ -39,7 +39,7 @@ body{
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    margin-top: 2.5vh;
+    margin-top: 4.5vh;
     margin-bottom: 2.5vh;
 
     background-color:rgb(255, 232, 255);
@@ -47,6 +47,8 @@ body{
 
 .bar-graph-title{
     font-weight: bolder;
+    font-size: 0.8em;
+    margin-left: 5px;
 }
 
 .graph-area{
