@@ -220,6 +220,7 @@ body{
     font-weight: bolder;
     font-size: 0.8em;
     margin-left: 5px;
+    margin-top: 2vh;
 }
 
 #dept-graph-doughnut{
@@ -231,3 +232,22 @@ body{
     height: 20vh;
 }
 
+#donut-percent-inner-text{
+    width: 42%;
+    height: 20vh;
+    position: absolute;
+    padding-top: 8vh;
+    text-align: center;
+    z-index: 999999999999999;
+}
+
+#donut-percent-text{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #FD6A51;
+}
+
+#donut-center-text{
+    font-size: 0.9em;
+    color: #797A7A;
+}

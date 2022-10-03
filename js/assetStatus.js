@@ -20,6 +20,7 @@ var myChart = new Chart(ctx, {
     }]
   },
     options: {
+        cutout: 60,
         elements: {
           center: {
             text: 'Red is 2/3 the total numbers',
