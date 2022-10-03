@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 .main-graph-area{
     width: 100vw;
@@ -41,5 +42,9 @@ body{
     margin-top: 2.5vh;
     margin-bottom: 2.5vh;
 
-    background-color:blue;
+    background-color:rgb(255, 232, 255);
+}
+
+.bar-graph-title{
+    font-weight: bolder;
 }
