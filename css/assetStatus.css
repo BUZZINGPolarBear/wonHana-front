@@ -168,7 +168,7 @@ body{
 
 .recomment-btn-area{
     width: 100vw;
-    height: 18vh;
+    height: 16vh;
     margin-top: 1vh;
 
     /* background-color:darkcyan; */
@@ -199,4 +199,44 @@ body{
     margin-left: 2vw;
     background-image: url("/image/recommend_btn_3.png");
     background-repeat: no-repeat;
+}
+
+/* 
+    하단 부채비율 추가
+*/
+.bottom-graph-area{
+    width: 100vw;
+    height: 35vh;
+    background-color: white;
+
+    box-shadow: -3px -3px rgb(230, 230, 230);
+}
+
+.dept-graph-area{
+    width: 90%;
+    height: 20vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.dept-graph-title{
+    width: 100%;
+    height: 1em;
+    float: left;
+
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.dept-graph{
+    float: left;
+    width: 45%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 2vh;
+    height: 20vh;
+
+    background-color: #FBAE29;
+
 }
