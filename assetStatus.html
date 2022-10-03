@@ -19,6 +19,7 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>자산 현황</title>
 </head>
 <body>
@@ -85,7 +86,20 @@
                 </div>
                 <canvas id="myChart"></canvas>
             </div>
-            <div class="dept-graph-content">부채비율이 너무 높습니다.<br>전문가와의 자산 상담을 권합니다.</div>
+            <div class="dept-graph-content">
+                부채비율이 너무 높습니다.<br>
+                전문가와의 자산 상담을 권합니다.<br>
+                <button class="button is-danger is-rounded" style="
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                padding-left: 10px;
+                font-weight: bolder;
+                height:1.8em;
+                margin-top: 10px;
+                background-color: #FD6A51;
+            ">자산관리사 연결</button>
+            </div>
         </div>
 
     </div>
