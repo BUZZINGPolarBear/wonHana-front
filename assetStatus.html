@@ -12,6 +12,14 @@
     
     <!-- STYLE Sheet -->
     <link rel="stylesheet" type="text/css" href="/css/assetStatus.css"> 
+
+    <!-- CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <title>자산 현황</title>
 </head>
 <body>
@@ -54,5 +62,59 @@
             </div>
         </div>
     </div>
+
+    <div class="recomment-btn-area">
+        <div class="recommend-btn-img" id="first">
+            <img src="/image/recommend_btn_1.png">
+        </div>
+        <div class="recommend-btn-img" id="second">
+            <img src="/image/recommend_btn_2.png">
+        </div>
+        <div class="recommend-btn-img" id="third">
+            <img src="/image/recommend_btn_3.png">
+        </div>
+    </div>
+
+    <div class="bottom-graph-area">
+        <div class="dept-graph-area">
+            <div class="dept-graph-title">부채 비율</div>
+            <div class="dept-graph" id="dept-graph-doughnut">
+                <!-- <canvas id="dept-graph-doughnut" width="200" height="200"></canvas> -->
+                <div id="donut-percent-inner-text">
+                <span id="donut-percent-text">80%</span><Br />
+                <span id="donut-center-text">부채비율</span>
+                </div>
+                <canvas id="myChart"></canvas>
+            </div>
+            <div class="dept-graph-content">
+                부채비율이 너무 높습니다.<br>
+                전문가와의 자산 상담을 권합니다.<br>
+                <button class="button is-danger is-rounded" style="
+                padding-right: 10px;
+                padding-bottom: 3px;
+                padding-top: 3px;
+                padding-left: 10px;
+                font-weight: bolder;
+                height:1.8em;
+                margin-top: 10px;
+                background-color: #FD6A51;
+            ">자산관리사 연결</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom-nav-bar">
+        <div class="bottom-nav-first">
+            <img src="/image/bottom_icon_1.png">
+        </div>
+        <div class="bottom-nav-second">
+            <img src="/image/bottom_icon_2.png">
+        </div>
+        <div class="bottom-nav-third">
+            <img src="/image/bottom_icon_3.png">
+        </div>
+    </div>
 </body>
+
+<script type="text/javascript" src="/js/assetStatus.js"></script>
 </html>

@@ -29,12 +29,12 @@ body{
     text-align: center;
     line-height: 3vh;
 
-    border-bottom: 1px #1DCB9D solid;
     margin-top: 5vh;
 }
 .asset-category#left{
     float: left;
     margin-left: 15vw;
+    border-bottom: 1px #1DCB9D solid;
 }
 
 .asset-category#right{
@@ -160,4 +160,156 @@ body{
 }
 .graph-info-area .color-info#fourth{
     background-color: #FBAE29;
+}
+
+/* 
+    중단의 추천 버튼들
+*/
+
+.recomment-btn-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 140px;
+    margin-top: 4px;
+
+    /* background-color:darkcyan; */
+}
+
+.recommend-btn-img{
+    float: left;
+    height: 10vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.recommend-btn-img#first{
+    max-width: 100%;
+    height : auto;
+}
+
+.recommend-btn-img#second{
+    max-width: 100%;
+    height : auto;
+}
+
+.recommend-btn-img#third{
+    max-width: 100%;
+    height : auto;
+}
+
+/* 
+    하단 부채비율 추가
+*/
+.bottom-graph-area{
+    width: 100vw;
+    height: 27vh;
+    background-color: white;
+
+    box-shadow: 3px 3px rgb(230, 230, 230);
+}
+
+.dept-graph-area{
+    width: 90%;
+}
+
+.dept-graph-title{
+    width: 100%;
+    height: 1em;
+    float: left;
+
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin-left: 5vw;
+    margin-top: 2vh;
+}
+
+#dept-graph-doughnut{
+    float: left;
+    width: 45%;
+    margin-left:5%;
+    margin-right:5%;
+    margin-top: 2vh;
+    height: 20vh;
+}
+
+#donut-percent-inner-text{
+    width: 42%;
+    height: 20vh;
+    position: absolute;
+    padding-top: 8vh;
+    text-align: center;
+    z-index: 999999999999999;
+}
+
+#donut-percent-text{
+    font-size: 1.3em;
+    font-weight: bolder;
+    color: #FD6A51;
+}
+
+#donut-center-text{
+    font-size: 0.9em;
+    color: #797A7A;
+}
+
+.dept-graph-content{
+    position: absolute;
+    width: 45%;
+    height: 10vh;
+    margin-top: 2vh;
+    margin-left: 50vw;
+    padding-top: 10vh;
+    font-size: 0.8em;
+    line-height: 1.6em;    
+}
+
+/* 
+하단 네비게이션 바
+*/
+.bottom-nav-bar{
+    width: 100vw;
+    height: 5vh;
+    margin-top: 15px;
+    box-shadow: -1px -1px rgb(230, 230, 230);
+    border-radius: 6px 6px;
+    padding-top: 1vh;
+
+
+    background-color: white;
+
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+}
+
+.bottom-nav-first{
+    width: 15vw;
+    height: 4vh;
+}
+.bottom-nav-first img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bottom-nav-second{
+    width: 15vw;
+    height: 4vh;
+    margin-left: 16vw;
+}
+.bottom-nav-second img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.bottom-nav-third{
+    width: 15vw;
+    height: 4vh;
+    margin-left: 16vw;
+}
+.bottom-nav-third img{
+    max-width: 100%;
+    max-height: 100%;
 }
