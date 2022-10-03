@@ -1,10 +1,17 @@
 body{
     margin: 0px;
     font-family: 'Nanum Gothic', sans-serif;
+    background-color: rgba(248, 248, 248);
 }
 .main-graph-area{
     width: 100vw;
-    height: 60vh;
+    height: 50vh;
+    background-color: white;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+    box-shadow: 3px 3px rgb(230, 230, 230);
 }
 
 .main-graph-area .bar-graph-top-area{
@@ -16,7 +23,7 @@ body{
 }
 
 .asset-category{
-    position: fixed;
+    float: left;
     width: 20vw;
     height: 3vh;
     text-align: center;
@@ -26,15 +33,16 @@ body{
     margin-top: 5vh;
 }
 .asset-category#left{
+    float: left;
     margin-left: 15vw;
-    margin-right: 65vw
 }
 
 .asset-category#right{
-    margin-left: 65vw;
+    float: left;
+    margin-left: 28vw;
 }
 .bar-graph-area{
-    position: relative;
+    float: left;
     height: 35vh;
     width: 90vw;
     margin-left: 5vw;
@@ -42,7 +50,7 @@ body{
     margin-top: 4.5vh;
     margin-bottom: 2.5vh;
 
-    background-color:rgb(255, 232, 255);
+    /* background-color:rgb(255, 232, 255); */
 }
 
 .bar-graph-title{
@@ -92,4 +100,64 @@ body{
     background-color: #FBAE29;
     border-radius: 0 10px 10px 0;
     margin-left: 3px;
+}
+
+.graph-info-area{
+    width: 90%;
+    width: 95%;
+    height: 5vh;
+
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    /* margin-top: 2vh; */
+
+    /* background-color: cornsilk; */
+}
+
+.graph-info-area .color-info{
+    float: left;
+    width: 13px;
+    height: 13px;
+    margin-top: 1.8vh;
+    border-radius: 3px;
+}
+
+.graph-info-area .info-text{
+    float: left;
+    width: 40%;
+    height: 100%;
+    line-height: 5vh;
+    margin-left: 10px;
+
+    color: #797A7A;
+    font-size: 0.8em;
+}
+.graph-info-area .percent-info{
+    float: left;
+    width: 15%;
+    height: 100%;
+    line-height: 5vh;
+    color: #797A7A;
+    font-size: 0.8em;
+}
+.graph-info-area .money-info{
+    float: right;
+    width: fit-content;
+    height: 100%;
+    line-height: 5vh;
+    color: #797A7A;
+    font-size: 0.8em;
+}
+
+.graph-info-area .color-info#first{
+    background-color: #1DCB9D;
+}
+.graph-info-area .color-info#second{
+    background-color: #4471FB;
+}
+.graph-info-area .color-info#third{
+    background-color: #FD6A51;
+}
+.graph-info-area .color-info#fourth{
+    background-color: #FBAE29;
 }
