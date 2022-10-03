@@ -48,3 +48,46 @@ body{
 .bar-graph-title{
     font-weight: bolder;
 }
+
+.graph-area{
+    width: 95%;
+    height: 5vh;
+
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    margin-top: 2vh;
+
+    /* background-color: cornsilk; */
+}
+
+.draw-bar-graph{
+    position: relative;
+    height: 50%;
+    float: left;
+}
+.draw-bar-graph#first-ratio{
+    width: 58%;
+    background-color: #1DCB9D;
+    border-radius: 10px 0 0 10px;
+}
+
+.draw-bar-graph#second-ratio{
+    width: 18%;
+    background-color: #4471FB;
+    border-radius: 1px;
+    margin-left: 3px;
+}
+
+.draw-bar-graph#third-ratio{
+    width: 8%;
+    background-color: #FD6A51;
+    border-radius: 1px;
+    margin-left: 3px;
+}
+
+.draw-bar-graph#fourth-ratio{
+    width: 8%;
+    background-color: #FBAE29;
+    border-radius: 0 10px 10px 0;
+    margin-left: 3px;
+}
