@@ -34,6 +34,7 @@ body{
 .asset-category#left{
     float: left;
     margin-left: 15vw;
+    font-weight: bolder;
     border-bottom: 1px #1DCB9D solid;
 }
 
