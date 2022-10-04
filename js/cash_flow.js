@@ -10,10 +10,10 @@ var myChart = new Chart(ctx, {
   data: {
     datasets: [{
       label: '# of Tomatoes',
-      data: [80, 20],
+      data: [35, 65],
       backgroundColor: [
-        '#FD6A51',
-        '#E5E5E5'
+        '#1DCB9D',
+        '#F3F3F3'
       ],
       borderWidth: 1,
       weight: 10
@@ -31,7 +31,9 @@ var myChart = new Chart(ctx, {
             lineHeight: 25 // Default is 25 (in px), used for when text wraps
           }
         },
-              borderWidth: 1
+        borderWidth: 1,
+        rotation: -90,
+        circumference: 180,
   }
 }
 );
