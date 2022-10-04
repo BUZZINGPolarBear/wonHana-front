@@ -3,7 +3,7 @@ const cash_flow_btn = document.getElementById("right");
 
 
 cash_flow_btn.onclick = ()=>{
-  location.reload("/cash-flow")
+  location.href = "/cash-flow"
 }
 
 var myChart = new Chart(ctx, {

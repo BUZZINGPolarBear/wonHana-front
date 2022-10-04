@@ -1,4 +1,9 @@
 var ctx = document.getElementById("myChart").getContext('2d');
+const now_status_btn = document.getElementById("left");
+
+now_status_btn.onclick = ()=>{
+    location.href = "/"
+}
 
 function draw() {
     ctx.font = '48px serif';
