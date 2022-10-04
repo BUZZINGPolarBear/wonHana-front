@@ -1,9 +1,10 @@
 var ctx = document.getElementById("myChart").getContext('2d');
+const cash_flow_btn = document.getElementById("right");
 
-function draw() {
-    ctx.font = '48px serif';
-    ctx.fillText('Hello world', 10, 50);
-} 
+
+cash_flow_btn.onclick = ()=>{
+  location.reload("/cash-flow")
+}
 
 var myChart = new Chart(ctx, {
   type: 'doughnut',
