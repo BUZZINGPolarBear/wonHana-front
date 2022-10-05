@@ -8,7 +8,7 @@ bottomIconFirst.onclick = () => {
   location.href = "/";
 }
 
-bottomIconFirst.onclick = () => {
+bottomIconSecond.onclick = () => {
 location.href = "/cost-manage";
 }
 
