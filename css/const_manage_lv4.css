@@ -99,6 +99,35 @@ body{
     /* background-color: cornsilk; */
 }
 
+.main-graph-info-area{
+    width: 95%;
+    height: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+
+    /* background-color: cornsilk; */
+}
+
+.main-graph-info-area .color-info{
+    float: left;
+    margin-top: 2vw;
+    width: 7vw;
+}
+.main-graph-info-area .color-info .img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+.main-graph-info-area .main-info-text{
+    width: 95%;
+    height: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    /* background-color: cornsilk; */
+}
+
 .graph-info-area .color-info{
     float: left;
     margin-top: 2vw;
@@ -108,7 +137,7 @@ body{
     width: 300px;
     height: 150px;
     object-fit: cover;
-  }
+}
 
 .graph-info-area .info-text{
     float: left;
@@ -147,6 +176,7 @@ body{
     height: 70vh;
     background-color: white;
     margin-top: 2vh;
+    margin-bottom: 15vh;
     border-radius: 10px;
     
     box-shadow: 3px 3px rgb(230, 230, 230);
