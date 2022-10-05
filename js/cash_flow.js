@@ -1,8 +1,19 @@
 var ctx = document.getElementById("myChart").getContext('2d');
 const now_status_btn = document.getElementById("left");
+const bottomIconFirst = document.getElementById("bottom-icon-first")
+const bottomIconSecond = document.getElementById("bottom-icon-second")
+const bottomIconThird = document.getElementById("bottom-icon-third")
 
-now_status_btn.onclick = ()=>{
-    location.href = "/"
+bottomIconFirst.onclick = () => {
+  location.href = "/";
+}
+
+bottomIconFirst.onclick = () => {
+location.href = "/cost-manage";
+}
+
+bottomIconThird.onclick = ()=>{
+  location.href = "/bankruptcy-prevent"
 }
 
 function draw() {

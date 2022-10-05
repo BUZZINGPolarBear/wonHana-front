@@ -1,6 +1,20 @@
 var ctx = document.getElementById("myChart").getContext('2d');
 const cash_flow_btn = document.getElementById("right");
+const bottomIconFirst = document.getElementById("bottom-icon-first")
+const bottomIconSecond = document.getElementById("bottom-icon-second")
+const bottomIconThird = document.getElementById("bottom-icon-third")
 
+bottomIconFirst.onclick = () => {
+  location.href = "/";
+}
+
+bottomIconFirst.onclick = () => {
+location.href = "/cost-manage";
+}
+
+bottomIconThird.onclick = ()=>{
+  location.href = "/bankruptcy-prevent"
+}
 
 cash_flow_btn.onclick = ()=>{
   location.href = "/cash-flow"
