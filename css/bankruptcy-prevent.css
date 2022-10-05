@@ -176,10 +176,10 @@ body{
 */
 .top-slider-area{
     width: 100vw;
-    height: 40vh;
+    height: 27vh;
     background-color: white;
     margin-top: 2vh;
-    margin-bottom: 15vh;
+    margin-bottom: 3vh;
     border-radius: 10px;
     
     box-shadow: 3px 3px rgb(230, 230, 230);
@@ -208,11 +208,38 @@ body{
 }
 #slider-marker{
     position: absolute;
+    margin-left: 20vw;
 }
 
 .slider{
     margin-top: 2vh;
     height: 8vh;
+}
+
+/*
+    투자상품 추천 부분
+*/
+.bottom-sort-area{
+    width: 100vw;
+    height: 40vh;
+    background-color: white;
+    margin-top: 2vh;
+    margin-bottom: 15vh;
+
+    box-shadow: 3px 3px rgb(230, 230, 230);
+}
+.dept-graph-area{
+    width: 90%;
+}
+.dept-graph-title{
+    position: absolute;
+    width: 100%;
+    height: 1em;
+    float: left;
+    font-weight: bolder;
+    font-size: 0.8em;
+    margin-left: 5vw;
+    margin-top: 3vh;
 }
 /* 
 하단 네비게이션 바
