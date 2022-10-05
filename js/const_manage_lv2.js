@@ -20,7 +20,7 @@ var myChart = new Chart(ctx, {
   data: {
     datasets: [{
       label: '# of Tomatoes',
-      data: [64, 36],
+      data: [38, 62],
       backgroundColor: [
         '#4471FB',
         '#E5E5E5'
