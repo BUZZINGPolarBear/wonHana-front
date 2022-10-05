@@ -50,7 +50,7 @@ body{
 
 #slider-status-top-title{
     color: #797A7A;
-    font-size: 1.2em;
+    font-size: 1.8em;
     font-weight: bolder;
 }
 
@@ -176,7 +176,7 @@ body{
 */
 .top-slider-area{
     width: 100vw;
-    height: 27vh;
+    height: 30vh;
     background-color: white;
     margin-top: 2vh;
     margin-bottom: 3vh;
@@ -212,7 +212,7 @@ body{
 }
 
 .slider{
-    margin-top: 2vh;
+    margin-top: 3.5vh;
     height: 8vh;
 }
 
