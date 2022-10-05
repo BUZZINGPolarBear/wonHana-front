@@ -15,6 +15,9 @@ location.href = "/cost-manage";
 bottomIconThird.onclick = ()=>{
   location.href = "/bankruptcy-prevent"
 }
+now_status_btn.onclick = ()=>{
+  location.href = "/"
+}
 
 function draw() {
     ctx.font = '48px serif';
