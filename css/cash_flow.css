@@ -204,7 +204,7 @@ body{
 */
 .bottom-graph-area{
     width: 100vw;
-    height: 21vh;
+    height: 22vh;
     background-color: white;
     margin-top: 2vh;
 
@@ -263,7 +263,7 @@ body{
     height: 10vh;
     margin-right: 5vw;
     margin-left: 50vw;
-    padding-top: 4vh;
+    padding-top: 5vh;
     font-size: 0.8em;
     line-height: 1.6em;    
 }
@@ -272,6 +272,16 @@ body{
     width: 40vw;
     height: 10vh;
     margin-left: 50vw;
+}
+
+.depth-graph-right-color-area{
+    width: 15vw; height:20vh; margin-top:20vh; margin-left: 23vw; margin-top: 2vh
+}
+.depth-graph-right-color-spoid{
+    float:left; width: 10px; margin-right:10px; height: 10px; 
+}
+.depth-graph-right-color-text{
+    float:left; line-height: 10px; color:#797A7A
 }
 /* 
 하단 네비게이션 바
