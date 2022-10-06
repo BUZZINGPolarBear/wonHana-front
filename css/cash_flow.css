@@ -233,6 +233,7 @@ body{
     margin-right:5%;
     margin-top: 2vh;
     height: 20vh;
+    font-weight: bolder;
 }
 
 #donut-percent-inner-text{
@@ -257,15 +258,21 @@ body{
 
 .dept-graph-content{
     position: absolute;
-    text-align: center;
-    width: 45%;
+    text-align: right;
+    width: 40vw;
     height: 10vh;
+    margin-right: 5vw;
     margin-left: 50vw;
-    padding-top: 10vh;
+    padding-top: 4vh;
     font-size: 0.8em;
     line-height: 1.6em;    
 }
 
+.depth-graph-content-bottom{
+    width: 40vw;
+    height: 10vh;
+    margin-left: 50vw;
+}
 /* 
 하단 네비게이션 바
 */
