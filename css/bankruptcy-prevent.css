@@ -2,6 +2,9 @@ body{
     margin: 0px;
     font-family: 'Nanum Gothic', sans-serif;
     background-color: rgba(248, 248, 248);
+
+    overflow-y: hidden;
+    overflow-x: auto;
 }
 .main-graph-area{
     width: 100vw;

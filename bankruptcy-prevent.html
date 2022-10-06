@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>도산 유형 투자</title>
 
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,8 +13,6 @@
     
     <!-- STYLE Sheet -->
     <link rel="stylesheet" type="text/css" href="/css/bankruptcy-prevent.css"> 
-    <link rel="stylesheet" href="css/rSlider.min.css">
-    <script src="js/rSlider.min.js"></script>
 
     <!-- CDN -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -22,7 +21,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
-    <title>도산 유형 투자</title>
+
+    <!-- FOR MOBILE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
 </head>
 <body>
     <div class="main-graph-area">
@@ -38,7 +39,7 @@
             <div class="slider-area">
                 <div><img src="/image/Line 2.svg"></div>
                 <div style="font-size: 0.8em; color: #A5A5A6">슬라이더를 통해 조절할 수 있습니다.</div>
-                <div class="slider">
+                <div class="slider" id="slider-touch-area">
                     <div id="slider-marker"><img src="/image/slider-body.svg"></div>
                     <img src="/image/slider-text.svg" style="margin-top: 10px;" >
                 </div>
